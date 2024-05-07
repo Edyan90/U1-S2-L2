@@ -101,7 +101,7 @@ if (numb5 > numb6 && numb6 > numb7) {
 } else if (numb6 > numb7 && numb7 > numb5) {
   console.log(numb6, numb7, numb5);
 } else if (numb5 > numb7 && numb7 > numb6) {
-  //oppure leviamo "if (numb5 > numb7 && numb7 > numb6)" e ci da la stessa condizione.
+  //oppure leviamo "if (numb5 > numb7 && numb7 > numb6)" e ci da lo stesso risultato.
   console.log(numb5, numb7, numb6);
 }
 //EXTRA
