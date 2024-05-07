@@ -105,12 +105,23 @@ console.log("il valore è di tipo:", typeof numb1);
 console.log("il valore è di tipo:", typeof booleano);
 console.log("il valore è di tipo:", typeof stringa);
 console.log("il valore è di tipo:", typeof varNumerici);
+
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+const ctrlnumb1 = numb1 % 2;
+if (ctrlnumb1 === 0) {
+  console.log(
+    "Il numero è pari in quanto il resto della divisione per 2 è uguale a:",
+    ctrlnumb1
+  );
+} else {
+  console.log(
+    "Il numero è dispari in quanto il resto della divione per 2 è uguale a:",
+    ctrlnumb1
+  );
+}
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
   let val = 7
