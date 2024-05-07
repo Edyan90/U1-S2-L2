@@ -94,14 +94,17 @@ const numb6 = 3;
 const numb7 = 5;
 
 varNumerici = [numb1, numb2, numb3, numb4, numb5, numb6, numb7];
-console.log(varNumerici.sort());
+console.log(varNumerici.sort()); //WTF??
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+const stringa = "hello there";
+const booleano = true;
+console.log("il valore è di tipo:", typeof numb1);
+console.log("il valore è di tipo:", typeof booleano);
+console.log("il valore è di tipo:", typeof stringa);
+console.log("il valore è di tipo:", typeof varNumerici);
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
