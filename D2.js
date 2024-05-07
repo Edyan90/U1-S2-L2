@@ -92,9 +92,21 @@ if (totalShoppingCart < 50) {
 const numb5 = 8;
 const numb6 = 3;
 const numb7 = 5;
-
+if (numb5 > numb6 && numb6 > numb7) {
+  console.log(numb5, numb6, numb7);
+} else if (numb6 > numb5 && numb5 > numb7) {
+  console.log(numb6, numb5, numb7);
+} else if (numb7 > numb6 && numb6 > numb5) {
+  console.log(numb7, numb6, numb5);
+} else if (numb6 > numb7 && numb7 > numb5) {
+  console.log(numb6, numb7, numb5);
+} else if (numb5 > numb7 && numb7 > numb6) {
+  //oppure leviamo "if (numb5 > numb7 && numb7 > numb6)" e ci da la stessa condizione.
+  console.log(numb5, numb7, numb6);
+}
+//EXTRA
 varNumerici = [numb1, numb2, numb3, numb4, numb5, numb6, numb7];
-console.log(varNumerici.sort()); //WTF??
+console.log(varNumerici.sort()); //non lo mette in ordine*/
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
@@ -157,14 +169,17 @@ console.log(me.lastName);
 */
 me.skills.pop();
 console.log(me.skills);
+
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+const arrayVuoto = [];
+arrayVuoto.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+console.log(arrayVuoto);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+arrayVuoto.pop();
+arrayVuoto.push(100);
+console.log(arrayVuoto);
