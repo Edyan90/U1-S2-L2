@@ -143,9 +143,8 @@ const me = {
   lastName: "Doe",
   skills: ["javascript", "html", "css"],
 };
-
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+me.city = "Toronto";
+console.log("Città di origine:", me.city);
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
